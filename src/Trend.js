@@ -40,8 +40,8 @@ const Trend = (props) => {
                             </div>
                             
                             <div id="tbtn">
-                            {/* <button id="trendMore" onClick={handleMore}>More..</button> */}
-                            <Link id='trendMore' to='/movie' state={movie.title}>More..</Link>
+                     
+                            <Link id='trendMore' to='/movieapp/movie' state={movie.title}>More..</Link>
                             </div>
 
                         </div>

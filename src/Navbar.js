@@ -12,13 +12,13 @@ const Navbar = () => {
         <div>
             <ul>
             <li>
-                <NavLink className='l1' id="link" to='/' style={({ isActive }) => ({ color: isActive ? "red" : "white" })} >Home</NavLink>
+                <NavLink className='l1' id="link" to='/movieapp/' style={({ isActive }) => ({ color: isActive ? "red" : "white" })} >Home</NavLink>
             </li>
             <li>
-            <NavLink id="link" to='/contact' style={({ isActive }) => ({ color: isActive ? "red" : "white" })} >Contact</NavLink>
+            <NavLink id="link" to='/movieapp/contact' style={({ isActive }) => ({ color: isActive ? "red" : "white" })} >Contact</NavLink>
             </li>
             <li>
-            <NavLink className='l3' id="link"  to='/about' style={({ isActive }) => ({ color: isActive ? "red" : "white" })} >About</NavLink>
+            <NavLink className='l3' id="link"  to='/movieapp/about' style={({ isActive }) => ({ color: isActive ? "red" : "white" })} >About</NavLink>
             </li>
             </ul>
         </div>

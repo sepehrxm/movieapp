@@ -1,6 +1,6 @@
 const Not = () => {
   return (
-    <div>Not</div>
+    <div>Wrong url, comeback to home</div>
   )
 }
 export default Not

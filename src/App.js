@@ -40,10 +40,10 @@ function App() {
     <div className='container'>
     <Navbar/>
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/movie" element={<Movie />} />
+      <Route path="/movieapp/" element={<Home />} />
+      <Route path="/movieapp/contact" element={<Contact />} />
+      <Route path="/movieapp/about" element={<About />} />
+      <Route path="movieapp/movie" element={<Movie />} />
       <Route path="*" element={<Not />} />
     </Routes>
     <Footer/>
