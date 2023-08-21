@@ -1,0 +1,159 @@
+
+
+.trends{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+  }
+  #trendPoster{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px 5px #300101;
+  }
+  #trendCard{
+    background-color: #3b0503;
+    /* background-color: #413726; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 2px solid #4e3b23;
+  }
+  #trendMore{
+    width: 100px;
+    height: 30px;
+    background-color: #422f12;
+    border-radius: 20px;
+    color: #e42020;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 3px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  #trendMore:hover{
+    background-color: #c0985d;
+  }
+  #trendInfo{
+    /* background-color: rgba(180, 40, 40, 0.966); */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 20px;
+    justify-content: space-between;
+    width: 450px;
+    height: 250px;
+  
+  }
+  #trendInfo > div{
+    width: 100%;
+  }
+  
+  #tbtn{
+    display: flex;
+    justify-content: end;
+  }
+  #ttitle{
+    display: flex;
+    flex-direction: column;
+  }
+  #ttitle > div{
+    color: rgb(241, 241, 241);
+    /* font-size: 1.4rem; */
+  }
+  #tvote{
+    display: flex;
+    /* justify-content: center; */
+  }
+  #trate{
+    display: flex;
+    align-items: center;
+    background-color: rgba(222, 184, 135, 0.137);
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-left: 18px;
+    padding-right: 25px;
+  }
+  #trate>p{
+    color: #ffff00;
+    font-size: 1.2rem;
+  }
+  #star{
+    width: 30px;
+  }
+  #tr{
+    color: #f3c75f;
+    display: inline;
+    font-size: 1.2rem;
+    margin-right: 5px;
+    font-weight: normal;
+  }
+  #release{
+    font-size: 1.3rem;
+    color: #ffbc11;
+    font-weight: bold;
+  }
+  #title{
+    color: #fdfac7;
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+  #tHead{
+    text-align: center;
+    margin-top: 50px;
+    color: #7d1a0c;
+    background-color: #b39d69;
+    font-family: fantasy;
+    padding: 5px;
+  }
+
+  #load{
+    text-align: center;
+    font-size: 2rem;
+    color: darkgoldenrod;
+  }
+  
+  @media only screen and (max-width: 762px) {
+    #trendCard{
+      width: 90%;
+    }
+    #trendPoster{
+      width: 180px;
+      height: 250px;
+    }
+    #trendMore{
+      width: 80px;
+      height: 30px;
+      padding-top: 5px;
+      font-size: 1rem;
+      font-weight: bold;
+      margin-right: 15px;
+    }
+    #trendInfo{
+      width: 400px;
+    }
+    #trate{
+      padding-left: 10px;
+      padding-right: 15px;
+    }
+    #trate>p{
+
+      font-size: 1rem;
+    }
+    #tr{
+      font-size: 1.1rem;
+    }
+    #title{
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+    #release{
+        font-size: 1.2rem;
+    }
+    
+  }

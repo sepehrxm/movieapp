@@ -1,0 +1,138 @@
+#movieCard{
+    background-image: url(./cinema.jpg);
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-blend-mode: multiply;
+    width: 100%;
+    min-height: 950px;
+    margin: 0;
+    padding: 0;
+    color: wheat;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+  }
+
+#moviePoster{
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px 10px #1b0000;
+}
+#movieInfo{
+    display: flex;
+    flex-direction: column;
+}
+#info > div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+}
+#back{
+    display: flex;
+    background-color: #3b0503;
+    width: 1000px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 2px solid #4e3b23;
+}
+#overview{
+    color: #ff8800;
+    font-size: 1.4rem;
+    padding-left: 40px;
+    padding-right: 20px;
+    text-align: justify;
+}
+#def{
+    color: #f3c75f;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.row > p{
+    display: inline;   
+}
+
+#release{
+    color: #ffbc11;
+    font-size: 1.4rem;
+}
+#title{
+    color: #fdfac7;
+    font-weight: bold;
+    font-size: 1.5rem;
+    max-width: 25ch;
+  }
+
+  #lang{
+    font-size: 1.5rem;
+    color: #1bf59a;
+  }
+  #vote{
+    color: #7bff00;
+    font-size: 1.5rem;
+  }
+
+  @media only screen and (max-width: 762px) {
+    
+    #title{
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+    #release{
+        font-size: 1.2rem;
+    }
+    #movieCard{
+        display: flex;
+        justify-content: center;
+      }
+    #back{
+        flex-direction: column;
+        width: 95%;
+        height: 850px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        border-radius: 20px;
+        margin-top: 30px;
+        border: 2px solid #4e3b23;
+    }
+    #moviePoster{
+        width: 250px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    #lang{
+        font-size: 1.2rem;
+      }
+      #vote{
+        font-size: 1.2rem;
+        margin-top: 20px;
+      }
+      #def{
+        font-size: 1.1rem;
+        font-weight: normal;
+    }
+    #overview{
+        font-size: 1.2rem;
+        padding-left: 5px;
+        padding-right: 15px;
+        text-align: justify;
+    }
+    #info > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+  }
